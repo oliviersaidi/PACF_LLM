@@ -1,0 +1,20 @@
+{
+  "category": "predictive",
+  "count": 14,
+  "prompts": [
+    "One, two, three, four,",
+    "Monday, Tuesday, Wednesday,",
+    "A B C D E F",
+    "red blue green yellow",
+    "cat dog bird fish",
+    "10 20 30 40",
+    "alpha beta gamma delta",
+    "One, two, three, four, five, six, seven, eight",
+    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
+    "A B C D E F G H I J K L",
+    "red blue green yellow orange purple pink brown",
+    "cat dog bird fish mouse rabbit turtle snake",
+    "10 20 30 40 50 60 70 80",
+    "alpha beta gamma delta epsilon zeta eta theta"
+  ]
+}
