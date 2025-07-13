@@ -1,0 +1,140 @@
+{
+  "full": {
+    "avg_pue": 85.6524683515579,
+    "avg_phk": 5.6932783857484255,
+    "avg_perplexity": 14.053315031015998,
+    "avg_tokens_per_sec": 19.69490403751816,
+    "avg_pattern_overhead": 0.6329572352019354,
+    "avg_memory_mb": 0.0017681121826171875
+  },
+  "no_patterns": {
+    "avg_pue": 82.62586550947942,
+    "avg_phk": 5.859605466197125,
+    "avg_perplexity": 18.492784582009282,
+    "avg_tokens_per_sec": 18.360141765442073,
+    "avg_pattern_overhead": 0.33319042846993036,
+    "avg_memory_mb": 0.0004494984944661458,
+    "impact": {
+      "pue_change": -3.5335850797152486,
+      "phk_change": 2.921464034940813,
+      "speed_change": -6.777196119023521
+    }
+  },
+  "no_attention": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 18.614528023434918,
+    "avg_pattern_overhead": 0.7317430284094834,
+    "avg_memory_mb": 0.0019079844156901042,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": -5.485561199105924
+    }
+  },
+  "no_natural_language": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 19.037001573109034,
+    "avg_pattern_overhead": 0.7031718763048747,
+    "avg_memory_mb": 0.0019334157307942708,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": -3.340470525552413
+    }
+  },
+  "no_hybrid": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 20.157537282956778,
+    "avg_pattern_overhead": 0.6773643274624362,
+    "avg_memory_mb": 0.0019334157307942708,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": 2.3489997440826103
+    }
+  },
+  "no_predictive": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 19.25356204639286,
+    "avg_pattern_overhead": 0.7140229361213953,
+    "avg_memory_mb": 0.0019334157307942708,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": -2.2408943464997666
+    }
+  },
+  "no_caching": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 18.05128403200946,
+    "avg_pattern_overhead": 0.6894287982325826,
+    "avg_memory_mb": 0.000766754150390625,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": -8.345407534749384
+    }
+  },
+  "no_session_cache": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 18.765019409950387,
+    "avg_pattern_overhead": 0.6895945222336364,
+    "avg_memory_mb": 0.0019334157307942708,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": -4.7214478719793345
+    }
+  },
+  "no_parallel": {
+    "avg_pue": 85.80190533867699,
+    "avg_phk": 8.121407621418454,
+    "avg_perplexity": 17.287034221323808,
+    "avg_tokens_per_sec": 20.643206946310496,
+    "avg_pattern_overhead": 0.7482138558870659,
+    "avg_memory_mb": 0.001983642578125,
+    "impact": {
+      "pue_change": 0.17446897911421408,
+      "phk_change": 42.64905158595775,
+      "speed_change": 4.814965876380251
+    }
+  },
+  "no_adaptive": {
+    "avg_pue": 85.3316994342937,
+    "avg_phk": 7.621705326784418,
+    "avg_perplexity": 17.894235858025546,
+    "avg_tokens_per_sec": 20.00817004515344,
+    "avg_pattern_overhead": 0.7182010523671934,
+    "avg_memory_mb": 0.002215703328450521,
+    "impact": {
+      "pue_change": -0.3745004941919681,
+      "phk_change": 33.871994488505685,
+      "speed_change": 1.5905942320841964
+    }
+  },
+  "no_code_aware": {
+    "avg_pue": 85.46072908389357,
+    "avg_phk": 8.211416400715244,
+    "avg_perplexity": 26.422295631967003,
+    "avg_tokens_per_sec": 18.19907979536383,
+    "avg_pattern_overhead": 0.8173107717677038,
+    "avg_memory_mb": 0.0022341410319010415,
+    "impact": {
+      "pue_change": -0.22385725870426038,
+      "phk_change": 44.23001730023061,
+      "speed_change": -7.594981114428554
+    }
+  }
+}

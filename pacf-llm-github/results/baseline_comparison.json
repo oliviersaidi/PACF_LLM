@@ -1,0 +1,79 @@
+{
+  "baseline_speeds": {
+    "repetitive": {
+      "tokens_generated": 50,
+      "generation_time": 1.9576609134674072,
+      "tokens_per_second": 25.540684628289405,
+      "sample_text": "The cat sat on the mat. The cat sat on the hat. The cat sat on the`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    "code": {
+      "tokens_generated": 50,
+      "generation_time": 1.7781751155853271,
+      "tokens_per_second": 28.118715396341237,
+      "sample_text": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        return`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    "natural": {
+      "tokens_generated": 50,
+      "generation_time": 1.6668879985809326,
+      "tokens_per_second": 29.996016554541377,
+      "sample_text": "The weather today is beautiful, with clear skies and`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    "predictive": {
+      "tokens_generated": 50,
+      "generation_time": 1.6497840881347656,
+      "tokens_per_second": 30.306996145495408,
+      "sample_text": "Monday, Tuesday, Wednesday, Thursday,`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    "random": {
+      "tokens_generated": 50,
+      "generation_time": 1.6612112522125244,
+      "tokens_per_second": 30.098519940438816,
+      "sample_text": "blue car fast tree computer red jump small`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    "wikitext": {
+      "tokens_generated": 50,
+      "generation_time": 1.6564080715179443,
+      "tokens_per_second": 30.185798330588693,
+      "sample_text": "The history of artificial intelligence began in`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    }
+  },
+  "pacf_comparison": {
+    "pue": 86.15642195388939,
+    "phk": 60.05518111744366,
+    "speed": 17.823545074790147,
+    "overhead": 1.0528444777108301,
+    "patterns_detected": 32
+  },
+  "example_generations": {
+    "repetitive": {
+      "prompt": "The cat sat on the mat. The cat sat on the hat. The cat sat on the",
+      "generated": "`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "tokens": 50
+    },
+    "code": {
+      "prompt": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        return",
+      "generated": "`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "tokens": 50
+    },
+    "natural": {
+      "prompt": "The weather today is beautiful, with clear skies and",
+      "generated": "`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "tokens": 50
+    },
+    "predictive": {
+      "prompt": "Monday, Tuesday, Wednesday, Thursday,",
+      "generated": "`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "tokens": 50
+    },
+    "random": {
+      "prompt": "blue car fast tree computer red jump small",
+      "generated": "`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "tokens": 50
+    },
+    "wikitext": {
+      "prompt": "The history of artificial intelligence began in",
+      "generated": "`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "tokens": 50
+    }
+  }
+}

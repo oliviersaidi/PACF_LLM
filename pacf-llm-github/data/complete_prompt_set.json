@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "total_unique_prompts": 50,
+    "categories": [
+      "natural",
+      "repetitive",
+      "code",
+      "predictive",
+      "random",
+      "wikitext"
+    ],
+    "prompts_per_category": {
+      "natural": 8,
+      "repetitive": 6,
+      "code": 6,
+      "predictive": 14,
+      "random": 8,
+      "wikitext": 8
+    },
+    "source": "Extracted and reconstructed from PACF_LLM_V13_1c.py and paper description"
+  },
+  "prompts": {
+    "natural": [
+      "I've been thinking about the weather lately, and",
+      "The restaurant we went to last night was",
+      "My favorite hobby is photography because",
+      "When I was younger, I used to",
+      "The most interesting thing about science is",
+      "Yesterday I had the strangest dream where",
+      "My opinion on social media is that",
+      "The best advice I ever received was"
+    ],
+    "repetitive": [
+      "The quick brown fox jumps over the lazy dog. ",
+      "All work and no play makes Jack a dull boy. ",
+      "To be or not to be, that is the question. ",
+      "Once upon a time in a land far far away. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "The rain in Spain stays mainly in the plain. "
+    ],
+    "code": [
+      "The quick brown fox",
+      "Once upon a time",
+      "In the beginning",
+      "To be or not to be",
+      "import numpy as np",
+      "def calculate_sum(a, b):"
+    ],
+    "predictive": [
+      "One, two, three, four,",
+      "Monday, Tuesday, Wednesday,",
+      "A B C D E F",
+      "red blue green yellow",
+      "cat dog bird fish",
+      "10 20 30 40",
+      "alpha beta gamma delta",
+      "One, two, three, four, five, six, seven, eight",
+      "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
+      "A B C D E F G H I J K L",
+      "red blue green yellow orange purple pink brown",
+      "cat dog bird fish mouse rabbit turtle snake",
+      "10 20 30 40 50 60 70 80",
+      "alpha beta gamma delta epsilon zeta eta theta"
+    ],
+    "random": [
+      "blue",
+      "green",
+      "large",
+      "small",
+      "fast",
+      "slow",
+      "bright",
+      "dark"
+    ],
+    "wikitext": [
+      "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions",
+      "Photosynthesis is a process used by plants and other organisms",
+      "The Renaissance was a period in European history marking the transition",
+      "Quantum mechanics is a fundamental theory in physics that provides",
+      "The Great Wall of China is a series of fortifications made of stone",
+      "DNA, or deoxyribonucleic acid, is a molecule composed of two chains",
+      "The Industrial Revolution was the transition to new manufacturing processes",
+      "Climate change includes both global warming driven by human emissions"
+    ]
+  }
+}
