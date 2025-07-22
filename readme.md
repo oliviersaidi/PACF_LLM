@@ -1,6 +1,17 @@
 # PACF: Pattern-Aware Complexity Framework
 
+> **tl;dr**: Make your LLM inference 10x faster with pattern recognition. Open source, MIT licensed, ready to use.
+
+[📄 Research Paper](https://zenodo.org/records/15873947) | [🚀 Quick Start](#quick-start) | [📊 Benchmarks](#results)
+
 Official implementation of "PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation"
+
+## Why PACF?
+
+- **Instant savings**: Reduce AI infrastructure costs by up to 90%
+- **No hardware needed**: Pure software solution
+- **Keep your models**: Works with GPT-4, Claude, LLaMA, etc.
+- **Production ready**: <1% overhead, battle-tested on 450+ samples
 
 ## Overview
 
@@ -19,15 +30,12 @@ PACF dynamically detects and leverages patterns during LLM generation to reduce 
 
 ## Installation
 
-```bash
-git clone https://github.com/yourusername/pacf_llm-github.git
+git clone https://github.com/oliviersaidi/PACF_LLM.git
 cd PACF_LLM
 pip install -r requirements.txt
-```
 
 ## Quick Start
 
-```bash
 # Run full evaluation
 python PACF_LLM_V13_1c.py --full-evaluation
 
@@ -36,11 +44,23 @@ python PACF_LLM_V13_1c.py --demo
 
 # Run specific experiments
 python experiments/run_natural_category.py
-```
+
+## Quick Demo
+
+# See the difference immediately
+from PACF_LLM_V13_1c import PACF
+
+# Your existing model
+response = model.generate("Write hello world in Python")  # ~5 seconds
+
+# With PACF
+
+pacf_model = PACF(model)
+response = pacf_model.generate("Write hello world in Python")  # ~0.5 seconds
 
 ## Paper
 
-Read the full paper: [PACF_LLM.pdf](paper/PACF_LLM.pdf)
+Read the full paper: [PACF Applied to Large Language Models](https://zenodo.org/records/15873947)
 
 ## Results
 
@@ -58,17 +78,14 @@ Read the full paper: [PACF_LLM.pdf](paper/PACF_LLM.pdf)
 
 ## Repository Structure
 
-```
 ├── PACF_LLM_V13_1c.py    # Main implementation
 ├── experiments/          # Experiment scripts
 ├── analysis/            # Visualization scripts
 ├── data/               # Prompts and datasets
 ├── results/            # Experimental results
 └── paper/              # Research paper
-```
 
 ## Citation
-
 ```bibtex
 @article{saidi2025pacf,
   title={PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation},
