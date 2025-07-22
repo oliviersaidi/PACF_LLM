@@ -3,7 +3,7 @@
 
 > **tl;dr**: Make your LLM inference 10x faster with pattern recognition. Open source, MIT licensed, ready to use.
 
-<a href="https://zenodo.org/records/15873947">Research Paper</a> | <a href="#quick-start">Quick Start</a> | <a href="#benchmark-results">Benchmarks</a>
+See the [Research Paper](https://zenodo.org/records/15873947) for details.
 
 Official implementation of "PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation"
 
