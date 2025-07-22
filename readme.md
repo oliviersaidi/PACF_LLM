@@ -1,4 +1,3 @@
-```markdown
 # PACF: Pattern-Aware Complexity Framework
 
 > **tl;dr**: Make your LLM inference 10x faster with pattern recognition. Open source, MIT licensed, ready to use.
