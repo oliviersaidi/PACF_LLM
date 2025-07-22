@@ -122,9 +122,9 @@ python PACF_LLM_V13_1c.py --json-log results.json --performance-tracking --demo
 ## Repository Structure
 
 ```
-├── PACF_LLM_V13_1c.py    # Main implementation (~6000 lines)
-├── experiments/          # Experiment scripts (if available)
-├── analysis/            # Visualization scripts (if available)
+├── PACF_LLM_V13_1c.py  # Main implementation (~6000 lines)
+├── experiments/        # Experiment scripts
+├── analysis/           # Visualization scripts
 ├── data/               # Sample prompts and datasets
 ├── results/            # Experimental results
 ├── paper/              # Research paper
