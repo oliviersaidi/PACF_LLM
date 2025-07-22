@@ -20,8 +20,8 @@ PACF dynamically detects and leverages patterns during LLM generation to reduce 
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/pacf-llm-github.git
-cd pacf-llm-github
+git clone https://github.com/yourusername/pacf_llm-github.git
+cd PACF_LLM
 pip install -r requirements.txt
 ```
 
