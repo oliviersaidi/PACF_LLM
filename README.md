@@ -1,4 +1,11 @@
-# PACF: Pattern-Aware Complexity Framework
+# PACF: Pattern-Aware Complexity Framework for Efficient LLM Generation
+
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.15873947.svg)](https://zenodo.org/records/15873947)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org)
+[![CI](https://github.com/oliviersaidi/PACF_LLM/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviersaidi/PACF_LLM/actions/workflows/ci.yml)
+
+> 📄 **Paper**: [PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation](https://zenodo.org/records/15873947) — [Olivier Saidi, 2025 · DOI:10.5281/zenodo.15873947](https://zenodo.org/records/15873947)
 
 > **tl;dr**: Make your LLM inference 10x faster with pattern recognition. Open source, MIT licensed, ready to use.
 
@@ -149,9 +156,12 @@ python PACF_LLM_V13_1c.py --json-log results.json --performance-tracking --demo
 
 ```bibtex
 @article{saidi2025pacf,
-  title={PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation},
-  author={Saidi, Olivier},
-  year={2025}
+  title     = {PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation},
+  author    = {Saidi, Olivier},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.15873947},
+  url       = {https://zenodo.org/records/15873947}
 }
 ```
 
